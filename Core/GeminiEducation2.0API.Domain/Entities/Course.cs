@@ -23,6 +23,6 @@ namespace GeminiEducation2._0API.Domain.Entities
 		public Guid InstructorId { get; set; }
 		public Instructor Instructor { get; set; }
 
-		public ICollection<Student> Students { get; set; } = new List<Student>();
+		public ICollection<StudentCourse> StudentCourses { get; set; } = new List<StudentCourse>();
 	}
 }

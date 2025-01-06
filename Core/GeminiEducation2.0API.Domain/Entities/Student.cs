@@ -14,6 +14,6 @@ namespace GeminiEducation2._0API.Domain.Entities
 		public DateTime EnrollmentDate { get; set; }
 
 		// Navigation Property
-		public ICollection<Course> Courses { get; set; } = new List<Course>();
+		public ICollection<StudentCourse> StudentCourses { get; set; } = new List<StudentCourse>();
 	}
 }
