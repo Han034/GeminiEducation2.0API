@@ -14,19 +14,18 @@ namespace GeminiEducation2._0API.Infrastructure.Contexts
 		{
 		}
 
-		public DbSet<Course> Courses { get; set; }
-		public DbSet<Category> Categories { get; set; }
-		public DbSet<Instructor> Instructors { get; set; }
-		public DbSet<Student> Students { get; set; }
-		public DbSet<StudentCourse> StudentCourses { get; set; }
+		public DbSet<Lesson> Lessons { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
 
-			// Entity konfigürasyonlarını uygula
-			modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-
+			modelBuilder.Entity<Lesson>(entity =>
+			{
+				entity.HasKey(e => e.Id);
+				entity.Property(e => e.Title).IsRequired().HasMaxLength(255);
+				entity.Property(e => e.Content).IsRequired();
+			});
 		}
 	}
 }
