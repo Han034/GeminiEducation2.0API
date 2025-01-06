@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{559D7A14-E7F7-44ED-9A6C-158D643DC40F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{295FF05C-9051-4F35-AF74-9FDD07B24419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6C4C80F1-39E9-4599-8BB2-ADC35C627756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiEducation2.0API.Infrastructure", "Infrastructure\GeminiEducation2.0API.Infrastructure\GeminiEducation2.0API.Infrastructure.csproj", "{36323F75-54FE-4B2B-B409-2DDAF4925DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiEducation2.0API.Application", "Core\GeminiEducation2.0API.Application\GeminiEducation2.0API.Application.csproj", "{6B0091A8-B09A-469F-8ACD-318196E35B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiEducation2.0API.Domain", "Core\GeminiEducation2.0API.Domain\GeminiEducation2.0API.Domain.csproj", "{8FCE84A9-3C7F-464D-BC80-83909822D371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiEducation2.0API.Persistence", "Infrastructure\GeminiEducation2.0API.Persistence\GeminiEducation2.0API.Persistence.csproj", "{DEF8E596-5A28-4506-95B3-F90DE629DDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeminiEducation2.0API", "Presentation\GeminiEducation2.0API\GeminiEducation2.0API.csproj", "{1280E450-D94C-4D7C-8344-ACD00615EE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36323F75-54FE-4B2B-B409-2DDAF4925DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36323F75-54FE-4B2B-B409-2DDAF4925DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36323F75-54FE-4B2B-B409-2DDAF4925DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36323F75-54FE-4B2B-B409-2DDAF4925DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0091A8-B09A-469F-8ACD-318196E35B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0091A8-B09A-469F-8ACD-318196E35B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0091A8-B09A-469F-8ACD-318196E35B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0091A8-B09A-469F-8ACD-318196E35B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCE84A9-3C7F-464D-BC80-83909822D371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCE84A9-3C7F-464D-BC80-83909822D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCE84A9-3C7F-464D-BC80-83909822D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCE84A9-3C7F-464D-BC80-83909822D371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF8E596-5A28-4506-95B3-F90DE629DDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF8E596-5A28-4506-95B3-F90DE629DDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF8E596-5A28-4506-95B3-F90DE629DDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF8E596-5A28-4506-95B3-F90DE629DDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1280E450-D94C-4D7C-8344-ACD00615EE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1280E450-D94C-4D7C-8344-ACD00615EE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1280E450-D94C-4D7C-8344-ACD00615EE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1280E450-D94C-4D7C-8344-ACD00615EE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36323F75-54FE-4B2B-B409-2DDAF4925DE3} = {295FF05C-9051-4F35-AF74-9FDD07B24419}
+		{6B0091A8-B09A-469F-8ACD-318196E35B9B} = {559D7A14-E7F7-44ED-9A6C-158D643DC40F}
+		{8FCE84A9-3C7F-464D-BC80-83909822D371} = {559D7A14-E7F7-44ED-9A6C-158D643DC40F}
+		{DEF8E596-5A28-4506-95B3-F90DE629DDB0} = {295FF05C-9051-4F35-AF74-9FDD07B24419}
+		{1280E450-D94C-4D7C-8344-ACD00615EE9D} = {6C4C80F1-39E9-4599-8BB2-ADC35C627756}
+	EndGlobalSection
+EndGlobal

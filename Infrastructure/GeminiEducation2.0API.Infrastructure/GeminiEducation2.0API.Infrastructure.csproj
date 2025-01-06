@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GeminiEducation2._0API.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\GeminiEducation2.0API.Domain\GeminiEducation2.0API.Domain.csproj" />
+    <ProjectReference Include="..\GeminiEducation2.0API.Persistence\GeminiEducation2.0API.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
